@@ -12,6 +12,5 @@ A Django-based web application that presents multiple-choice questions to users 
 - Display a summary of correct and incorrect answers at the end.
 
 
-This streamlined README provides the necessary information to understand, set up, and use the Quiz Application without overwhelming details.
-::contentReference[oaicite:0]{index=0}
+
  
