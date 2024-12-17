@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}Start Quiz{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <h1>Welcome to the Quiz!</h1>
+    <p>Click the button below to start the quiz.</p>
+    <a href="{% url 'get_question' %}" class="btn btn-primary btn-lg">Start Quiz</a>
+</div>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Quiz Summary{% endblock %}
+
+{% block content %}
+<div class="card mx-auto text-center" style="max-width: 600px;">
+    <div class="card-body">
+        <h1 class="card-title">Quiz Summary</h1>
+        <p>Total Questions Answered: <strong>{{ summary.total_questions_answered }}</strong></p>
+        <p class="text-success">Correct Answers: <strong>{{ summary.correct_answers }}</strong></p>
+        <p class="text-danger">Incorrect Answers: <strong>{{ summary.incorrect_answers }}</strong></p>
+        <a href="{% url 'start_quiz' %}" class="btn btn-primary">Start New Quiz</a>
+    </div>
+</div>
+{% endblock %}
