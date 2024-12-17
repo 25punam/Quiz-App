@@ -16,7 +16,7 @@ A Django-based web application that presents multiple-choice questions to users 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/quiz-app.git
+   https://github.com/25punam/Quiz-App.git
    cd quiz-app
 
 2. **Create and Activate a Virtual Environment:**
@@ -35,8 +35,6 @@ A Django-based web application that presents multiple-choice questions to users 
 8. **Run the Development Server:**
    ```bash
    python manage.py runserver
-
-
 
 
 
