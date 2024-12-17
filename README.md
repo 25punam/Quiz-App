@@ -19,7 +19,7 @@ A Django-based web application that presents multiple-choice questions to users 
    https://github.com/25punam/Quiz-App.git
    cd quiz-app
 
-2. **Create and Activate a Virtual Environment:**
+2. **Create and Activate a Virtual Environment:** On Windows:
    ```bash
    python -m venv env
    .\env\Scripts\activate
